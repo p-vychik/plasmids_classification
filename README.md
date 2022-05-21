@@ -20,6 +20,9 @@ The step for tree reconstruction was automized with the script ```gettree.py``` 
 ```
 gettree.py <hmm file or folder with hmm models> <proteome fasta file> <temp folder> <output folder>
 ```
+![tree built using FastTree 2.1.11](visualization/tree.jpg)
+The tree was built using FastTree 2.1.11. Rep_1 (244) purple, Rep_2 (81) blue, Rep_3 (918) green, Duf1424 (12) yellow
+
 ### Building graph with Gephi
 1.The proteins were clustered at 50% similarity using MMseqs2 to decrease the number of proteins used (the next steps and building graph was also performed with no clustering and clustering at different similarities).
 ```
@@ -38,7 +41,7 @@ diamond blastp -d protein_database.dmnd -q input_proteins.fa  --ultra-sensitive 
 4. Graph was visualized in Gephi 0.9.2.
 The node is the protein, the edge is the blast hit of one protein on another. Graph was built several times with different algorithms. 
 ![Graph built with Gephi 0.9.2 (OpenOrd algorithm)](visualization/openord3.png)
-Graph built with Gephi 0.9.2 (OpenOrd algorithm)
+Graph built with Gephi 0.9.2 (OpenOrd algorithm). Rep1 is blue, Rep2 is purple, Rep3 is green and DUF is yellow. 
 
 ## Results
 1. 5288 proteins with Rep-like domain were identified in NCBI GenBank plasmid proteome (over 1 500 000 non-redundant sequences) and supervisor’s sequencing data using HMM-models from Pfam
@@ -48,7 +51,7 @@ Graph built with Gephi 0.9.2 (OpenOrd algorithm)
 
 ## Conclusions
 1. Rep-proteins contain only one type of rep-domain
-2. Rep_3 family has the most members
+2. Rep_3 family has the most members (918 proteins out of 1255 belong to Rep_3)
 3. Tree and graph topologies demonstrate sub-groups existence within Rep_3 family 
 
 
