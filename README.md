@@ -38,6 +38,7 @@ diamond blastp -d protein_database.dmnd -q input_proteins.fa  --ultra-sensitive 
 4. Graph was visualized in Gephi 0.9.2.
 The node is the protein, the edge is the blast hit of one protein on another. Graph was built several times with different algorithms. 
 ![Graph built with Gephi 0.9.2 (OpenOrd algorithm)](visualization/openord3.png)
+Graph built with Gephi 0.9.2 (OpenOrd algorithm)
 
 ## Results
 1. 5288 proteins with Rep-like domain were identified in NCBI GenBank plasmid proteome (over 1 500 000 non-redundant sequences) and supervisor’s sequencing data using HMM-models from Pfam
