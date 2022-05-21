@@ -37,3 +37,16 @@ diamond blastp -d protein_database.dmnd -q input_proteins.fa  --ultra-sensitive 
 3. Next diamond output and input in fasta format were converted to Pajek (.net) so that a graph could be built (using the python script diamond_to_pjk.py, provided by the project supervisor). The resulting file has a list of nodes and then edges with bitscore or transformed e-values as weights. Bitscore values were used as edge weights in this projects. 
 4. Graph was visualized in Gephi 0.9.2.
 The node is the protein, the edge is the blast hit of one protein on another. Graph was built several times with different algorithms. 
+
+## Results
+1. 5288 proteins with Rep-like domain were identified in NCBI GenBank plasmid proteome (over 1 500 000 non-redundant sequences) and supervisor’s sequencing data using HMM-models from Pfam
+2. Clustering at 50% sequence identity level reduced data size to 1255 proteins, which were further used for graph building  (blast in diamond, Gephi)
+3. Phylogenetic tree was built based on previously clustered data with FastTree
+4. Acquired graph and tree topologies could be used for novel sequenced plasmids classification
+
+## Conclusions
+1. Rep-proteins contain only one type of rep-domain
+2. Rep_3 family has the most members
+3. Tree and graph topologies demonstrate sub-groups existence within Rep_3 family 
+
+
