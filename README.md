@@ -37,7 +37,7 @@ diamond blastp -d protein_database.dmnd -q input_proteins.fa  --ultra-sensitive 
 3. Next diamond output and input in fasta format were converted to Pajek (.net) so that a graph could be built (using the python script diamond_to_pjk.py, provided by the project supervisor). The resulting file has a list of nodes and then edges with bitscore or transformed e-values as weights. Bitscore values were used as edge weights in this projects. 
 4. Graph was visualized in Gephi 0.9.2.
 The node is the protein, the edge is the blast hit of one protein on another. Graph was built several times with different algorithms. 
-![Graph built with Gephi 0.9.2 (OpenOrd algorithm)](vizualization/openord3.png)
+![Graph built with Gephi 0.9.2 (OpenOrd algorithm)](visualization/openord3.png)
 
 ## Results
 1. 5288 proteins with Rep-like domain were identified in NCBI GenBank plasmid proteome (over 1 500 000 non-redundant sequences) and supervisor’s sequencing data using HMM-models from Pfam
