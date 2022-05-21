@@ -21,6 +21,7 @@ The step for tree reconstruction was automized with the script ```gettree.py``` 
 gettree.py <hmm file or folder with hmm models> <proteome fasta file> <temp folder> <output folder>
 ```
 ![tree built using FastTree 2.1.11](visualization/tree.jpg)
+
 The tree was built using FastTree 2.1.11. Rep_1 (244) purple, Rep_2 (81) blue, Rep_3 (918) green, Duf1424 (12) yellow
 
 ### Building graph with Gephi
