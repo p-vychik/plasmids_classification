@@ -20,9 +20,19 @@ The step for tree reconstruction was automized with the script ```gettree.py``` 
 ```
 gettree.py <hmm file or folder with hmm models> <proteome fasta file> <temp folder> <output folder>
 ```
+gettree.py requires the following tools to be installed and added to the system PATH environment (necessary to use subprocess call in python without full path to executables):
+```
+NCBI blast+ (makeblastdb and blastdbcmd utilities)
+mafft
+hmmsearch
+FastTreeMP
+```
+Information about local blast+ install is available in official [manual](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).
+
 ![tree built using FastTree 2.1.11](visualization/tree.jpg)
 
-The tree was built using FastTree 2.1.11. Rep_1 (244) purple, Rep_2 (81) blue, Rep_3 (918) green, Duf1424 (12) yellow
+The tree was built using FastTree 2.1.11. Rep_1 (244) purple, Rep_2 (81) blue, Rep_3 (918) green, Duf1424 (12) yellow.
+FastTreeMP results were reproduced on the same alignment with [IQtree](http://www.iqtree.org/) (tool for phylogenomic inference). The result showed consistency and are available in Newick format in the repo (output/iqtree/general_tree).
 
 ### Building graph with Gephi
 1.The proteins were clustered at 50% similarity using MMseqs2 to decrease the number of proteins used (the next steps and building graph was also performed with no clustering and clustering at different similarities).
