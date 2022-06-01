@@ -66,9 +66,9 @@ Graph built with Gephi 0.9.2 (OpenOrd algorithm). Rep1 is blue, Rep2 is purple, 
 3. Tree and graph topologies demonstrate sub-groups existence within Rep_3 family 
 
 ## References
-<a href=”https://journals.asm.org/doi/10.1128/MRA.01325-18”>1. Brooks L, Kaze M, Sistrom M. A Curated, Comprehensive Database of Plasmid Sequences. Microbiol Resour Announc. 2019;8:e01325-18.</a>
-<a href=”https://journals.asm.org/doi/10.1128/mSystems.00283-21”>2. Kirstahler P, Teudt F, Otani S, Aarestrup FM, Pamp SJ. A Peek into the Plasmidome of Global Sewage. mSystems. 2021;6:e00283-21.</a>
-<a href=”http://www.frontiersin.org/Evolutionary_and_Genomic_Microbiology/10.3389/fmicb.2015.00242/abstract”>3. Shintani M, Sanchez ZK, Kimbara K. Genomics of microbial plasmids: classification and identification based on replication and transfer systems and host taxonomy. Front Microbiol. 2015;6.
-<a href=”https://journals.asm.org/doi/10.1128/MMBR.00020-10”>4. Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EPC, de la Cruz F. Mobility of Plasmids. Microbiol Mol Biol Rev. 2010;74:434–52.</a>
-<a href=”https://journals.asm.org/doi/10.1128/MMBR.62.2.434-464.1998”>5. del Solar G, Giraldo R, Ruiz-Echevarría MJ, Espinosa M, Díaz-Orejas R. Replication and Control of Circular Bacterial Plasmids. Microbiol Mol Biol Rev. 1998;62:434–64.</a>
+[1. Brooks L, Kaze M, Sistrom M. A Curated, Comprehensive Database of Plasmid Sequences. Microbiol Resour Announc. 2019;8:e01325-18.](https://journals.asm.org/doi/10.1128/MRA.01325-18)<br />
+[2. Kirstahler P, Teudt F, Otani S, Aarestrup FM, Pamp SJ. A Peek into the Plasmidome of Global Sewage. mSystems. 2021;6:e00283-21.](https://journals.asm.org/doi/10.1128/mSystems.00283-21)<br />
+[3. Shintani M, Sanchez ZK, Kimbara K. Genomics of microbial plasmids: classification and identification based on replication and transfer systems and host taxonomy. Front Microbiol. 2015;6.]( http://www.frontiersin.org/Evolutionary_and_Genomic_Microbiology/10.3389/fmicb.2015.00242/abstract)<br />
+[4. Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EPC, de la Cruz F. Mobility of Plasmids. Microbiol Mol Biol Rev. 2010;74:434–52.](https://journals.asm.org/doi/10.1128/MMBR.00020-10)<br />
+[5. del Solar G, Giraldo R, Ruiz-Echevarría MJ, Espinosa M, Díaz-Orejas R. Replication and Control of Circular Bacterial Plasmids. Microbiol Mol Biol Rev. 1998;62:434–64.]( https://journals.asm.org/doi/10.1128/MMBR.62.2.434-464.1998)<br />
 
